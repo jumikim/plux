@@ -40,7 +40,7 @@ $breakpoint: 1024px;
 	  background: #000;
 	  border-bottom: 1px solid #777;
 	  .header-inner {
-	    overflow: hidden;
+	    overflow: visible;
 	    width: 1000px;
 	    margin: 0 auto;
 	    &:after {
@@ -59,7 +59,6 @@ $breakpoint: 1024px;
 	    }
 	    nav {
 	      float: left;
-	      margin-right: 94px;
 	      font-size: 0;
 	      li {
 	        display: inline-block;
@@ -91,8 +90,39 @@ $breakpoint: 1024px;
 	      }
 	    }
 	    .select-box {
-	    	display:none;
-	      float: left;
+	      float: right;
+	      position:relative;
+	      padding-top:16px;
+	      > div {
+	      	font-size:0;
+	      	figure {
+	      		margin-right:10px;
+	      	}
+	      }
+	      ul {
+	      	display:none;
+	      	position:absolute;
+	      	left:0; top:71px;
+	      	padding:0 18px;
+	      	width:170px;
+	      	box-sizing:border-box;
+	      	-webkit-box-sizing:border-box;
+	      	-ms-box-sizing:border-box;
+	      	background:#000;
+	      	li {
+	      		border-top:1px solid rgba(114, 114, 114, .8);
+				a {
+					font-size:14px;
+					line-height:44px;
+					color:#777;
+					transition:all .4s;
+					-webkit-transition:all .4s;
+					-ms-transition:all .4s;
+					&:hover, &:focus, &:active {color:#fff;}
+				}
+				&:first-child {border-top:0;}
+	      	}
+	      }
 	    }
 	  }
 	  .select-box > div {

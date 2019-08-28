@@ -102,7 +102,7 @@ body {
     background: #000;
     border-bottom: 1px solid #777; }
     header .header-inner {
-      overflow: hidden;
+      overflow: visible;
       width: 1000px;
       margin: 0 auto; }
       header .header-inner:after {
@@ -119,7 +119,6 @@ body {
         text-transform: uppercase; }
       header .header-inner nav {
         float: left;
-        margin-right: 94px;
         font-size: 0; }
         header .header-inner nav li {
           display: inline-block;
@@ -143,8 +142,37 @@ body {
               header .header-inner nav li a.on span, header .header-inner nav li a:hover span, header .header-inner nav li a:focus span, header .header-inner nav li a:active span {
                 color: #ff0075; }
       header .header-inner .select-box {
-        display: none;
-        float: left; }
+        float: right;
+        position: relative;
+        padding-top: 16px; }
+        header .header-inner .select-box > div {
+          font-size: 0; }
+          header .header-inner .select-box > div figure {
+            margin-right: 10px; }
+        header .header-inner .select-box ul {
+          display: none;
+          position: absolute;
+          left: 0;
+          top: 71px;
+          padding: 0 18px;
+          width: 170px;
+          box-sizing: border-box;
+          -webkit-box-sizing: border-box;
+          -ms-box-sizing: border-box;
+          background: #000; }
+          header .header-inner .select-box ul li {
+            border-top: 1px solid rgba(114, 114, 114, 0.8); }
+            header .header-inner .select-box ul li a {
+              font-size: 14px;
+              line-height: 44px;
+              color: #777;
+              transition: all .4s;
+              -webkit-transition: all .4s;
+              -ms-transition: all .4s; }
+              header .header-inner .select-box ul li a:hover, header .header-inner .select-box ul li a:focus, header .header-inner .select-box ul li a:active {
+                color: #fff; }
+            header .header-inner .select-box ul li:first-child {
+              border-top: 0; }
     header .select-box > div figure {
       overflow: hidden;
       display: inline-block;
