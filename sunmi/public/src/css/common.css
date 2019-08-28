@@ -131,11 +131,17 @@ body {
             font-size: 17px;
             font-weight: 700;
             line-height: 70px;
-            color: #fff; }
-        header .header-inner nav span {
-          display: inline-block;
-          margin-left: 10px;
-          color: #ff0075; }
+            color: #777;
+            transition: all .4s;
+            -webkit-transition: all .4s;
+            -ms-transition: all .4s; }
+            header .header-inner nav li a span {
+              display: inline-block;
+              margin-left: 10px; }
+            header .header-inner nav li a.on, header .header-inner nav li a:hover, header .header-inner nav li a:focus, header .header-inner nav li a:active {
+              color: #fff; }
+              header .header-inner nav li a.on span, header .header-inner nav li a:hover span, header .header-inner nav li a:focus span, header .header-inner nav li a:active span {
+                color: #ff0075; }
       header .header-inner .select-box {
         display: none;
         float: left; }
@@ -304,7 +310,66 @@ body {
   .p-synop01 .bold {
     margin-top: 30px;
     font-size: 18px;
-    font-weight: bold; } }
+    font-weight: bold; }
+  .p-synop02 {
+    display: flex;
+    margin-top: 216px; }
+  .p-synop02 .tit {
+    width: 215px; }
+  .p-synop02 .tit + span {
+    width: 170px; }
+  .p-synop02 .tit-box {
+    margin-right: 109px; }
+  .p-synop02 li {
+    margin-top: 20px; }
+  .p-synop02 li:first-child {
+    margin-top: 0; }
+  .p-synop02 li strong {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffc1dd; }
+  .p-synop03 {
+    display: flex;
+    margin-top: 217px; }
+  .p-synop03 .synopsis03 {
+    margin-right: 160px; }
+  .p-synop03 .synopsis03 .tit {
+    width: 223px; }
+  .p-synop03 .synopsis04 .tit {
+    width: 122px; }
+  .p-synop03 p {
+    margin-top: 32px; }
+  .p-synop03 span {
+    display: block;
+    margin-top: 28px;
+    font-size: 16px;
+    color: #ffc1dd;
+    font-weight: bold; }
+  .p-synop04 {
+    margin-top: 68px; }
+  .p-synop04 .tit {
+    width: 340px; }
+  .p-synop04 ol {
+    width: 694px;
+    margin-top: 32px; }
+  .p-synop04 ol li {
+    padding-left: 18px;
+    font-size: 16px;
+    line-height: 1.56;
+    color: #e95f9e;
+    text-indent: -18px; }
+  .p-video {
+    margin-top: 160px; }
+  .p-video .video-area {
+    overflow: hidden;
+    margin-top: 37px;
+    width: 960px;
+    min-height: 540px;
+    border: 5px solid #ff0075;
+    background: #fff;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box; } }
 
 /* mobile */
 @media (max-width: 1023px) {
