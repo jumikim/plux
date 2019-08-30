@@ -187,7 +187,19 @@ $breakpoint: 1024px;
 	  }
 	}
 
-	.p-container {width:1000px;margin:0 auto;padding-bottom:100px;}
+	.join-box {
+		position:absolute;top:842px;right:-290px;
+		width:240px;background:#ff0075;text-align:center;
+		box-shadow: 0px 7px 16.2px 1.8px rgba(2, 7, 57, 0.5);
+		-webkit-box-shadow: 0px 7px 16.2px 1.8px rgba(2, 7, 57, 0.5);
+		-ms-box-shadow: 0px 7px 16.2px 1.8px rgba(2, 7, 57, 0.5);
+		a {
+			display:block;padding:20px 0;color:#fff;
+			font-size:16px;font-weight:bold;
+			strong {display:block;font-size:18px;font-weight:bold;}
+		}
+	}
+	.p-container {position:relative;width:1000px;margin:0 auto;padding-bottom:100px;}
 	.p-kv {
 	  padding-top: 130px;text-align: center;
 	  h1 {
@@ -377,7 +389,6 @@ $breakpoint: 1024px;
 	    width: 340px;
 	  }
 	  ol {
-	    width: 694px;
 	    margin-top: 32px;
 	    li {
 	      padding-left: 18px;
@@ -388,6 +399,7 @@ $breakpoint: 1024px;
 	    }
 	  }
 	}
+	.jp .p-synop04 .tit {width:auto;}
 
 	.p-video {
 	  margin-top: 160px;
@@ -444,8 +456,8 @@ $breakpoint: 1024px;
 	  }
 	}
 	
-	.p-container {padding:64px 20px 100px;}
-	
+	.p-container {padding:64px 20px 190px;}
+
 	.p-lnb {
 	  display: block;
 	  position: fixed;
@@ -475,6 +487,7 @@ $breakpoint: 1024px;
 	        -ms-transition: all .4s;
 	        &.on, &:hover, &:focus, &:active {
 	          color: #fff;
+	          span {color:#ff0075;}
 	        }
 	      }
 	      span {display: inline-block;margin-left: 10px;}
@@ -769,6 +782,25 @@ $breakpoint: 1024px;
 	    -webkit-box-shadow: 0 0 30px 0 #161b8a;
 	    -ms-box-shadow: 0 0 30px 0 #161b8a;
 	  }
+	}
+
+	.top {
+		position:fixed;bottom:100px;right:15px;width:45px;height:45px;border-radius:100%;
+		background:#a7a7a7 url('../images/bg_top.png') 50% 50% no-repeat;text-indent:-9999px;background-size:auto 35px;
+		box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.16);
+		-webkit-box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.16);
+		-ms-box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.16);
+	}
+
+	.join-box {
+		position:fixed;bottom:-91px;left:0;width:100%;background:#ff0075;z-index:1;text-align:center;
+		transition:bottom .4s;-webkit-transition:bottom .4s;-ms-transition:bottom .4s;
+		a {
+			display:block;padding:20px 0;color:#fff;
+			font-size:17px;font-weight:bold;
+			strong {display:block;font-size:23px;font-weight:bold;}
+		}
+		&.floating {bottom:0;}
 	}
 
 

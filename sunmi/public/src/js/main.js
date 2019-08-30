@@ -14,25 +14,26 @@ $(function() {
 		$(this).parent().parent().slideUp();
 	});
 
-	$('.btn-menu').on('click', function(){
-		$('body').addClass('dim');
-		$('.mobile-nav').animate({'top': 0}, 500);
-		$('html').addClass('nav-open');
-	});
-	$('.mobile-nav .close, .mobile-nav a').on('click', function(){
-		$('body').removeClass('dim');
-		$('.mobile-nav').animate({'top': '-100%'}, 500);
-		$('html').removeClass('nav-open');
-	});
-
 	$(window).on('scroll', function(){
-		// console.log('z')
 		var scroll = $(window).scrollTop();
+		var screenHalf = $(document).height() / 2;
+		console.log(scroll, screenHalf)
 		if (scroll >= 30) {
 			$('#p-wrapper').addClass('hidden');
 		} else if(scroll <= 30) {
 			$('#p-wrapper').removeClass('hidden');
 		}
+
+		if(scroll >= screenHalf){
+			$('.join-box').addClass('floating');
+		} else if (scroll <= screenHalf){
+			$('.join-box').removeClass('floating');
+		}
+	});
+
+	// top button
+	$('.top').on('click', function(){
+		$('html, body').animate({scrollTop : 0}, 400);
 	});
 
 	
