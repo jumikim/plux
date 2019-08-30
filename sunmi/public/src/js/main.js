@@ -17,7 +17,6 @@ $(function() {
 	$(window).on('scroll', function(){
 		var scroll = $(window).scrollTop();
 		var screenHalf = $(document).height() / 2;
-		console.log(scroll, screenHalf)
 		if (scroll >= 30) {
 			$('#p-wrapper').addClass('hidden');
 		} else if(scroll <= 30) {
