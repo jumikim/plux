@@ -30,6 +30,7 @@ $breakpoint: 1024px;
 
 /* desktop */
 @media (min-width: $breakpoint) {
+	.top {display:none;}
 	header {
 	  background: #000;
 	  border-bottom: 1px solid #777;
@@ -96,7 +97,7 @@ $breakpoint: 1024px;
 	      }
 	      ul {
 	      	display:none;
-	      	position:absolute;
+	      	position:absolute;z-index:1;
 	      	left:0; top:71px;
 	      	padding:0 18px;
 	      	width:170px;

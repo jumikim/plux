@@ -95,6 +95,8 @@ body {
 
 /* desktop */
 @media (min-width: 1024px) {
+  .top {
+    display: none; }
   header {
     background: #000;
     border-bottom: 1px solid #777; }
@@ -151,6 +153,7 @@ body {
         header .header-inner .select-box ul {
           display: none;
           position: absolute;
+          z-index: 1;
           left: 0;
           top: 71px;
           padding: 0 18px;
