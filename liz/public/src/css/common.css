@@ -394,6 +394,8 @@ body {
   .cont03 span {
     display: block;
     margin-top: 35px; }
+  .cont03 .mobile {
+    display: none; }
   .cont04 {
     position: relative;
     margin-top: 86px;
@@ -540,8 +542,10 @@ body {
 
 /* mobile */
 @media (max-width: 1023px) {
+  .top {
+    display: none; }
   #p-wrapper {
-    background: #00000a url("../images/bg_mobile.jpg") 50% 0 no-repeat; }
+    background: #f5f6f8 url("../images/img_liz-m00-top.png") 50% 0 no-repeat; }
     #p-wrapper.hidden header {
       top: -64px; }
     #p-wrapper.hidden .p-lnb {
@@ -571,8 +575,6 @@ body {
         height: 24px; }
     header nav, header .select-box {
       display: none; }
-  .p-container {
-    padding: 64px 20px 190px; }
   .p-lnb {
     display: block;
     position: fixed;
@@ -607,6 +609,334 @@ body {
               color: #ff0075; }
         .p-lnb ul li span {
           display: inline-block;
-          margin-left: 10px; } }
+          margin-left: 10px; }
+  .join-box {
+    position: fixed;
+    bottom: -91px;
+    left: 0;
+    width: 100%;
+    background: #01a4b9;
+    z-index: 1;
+    text-align: center;
+    transition: bottom .4s;
+    -webkit-transition: bottom .4s;
+    -ms-transition: bottom .4s; }
+    .join-box a {
+      display: block;
+      padding: 20px 0;
+      color: #fff;
+      font-size: 17px;
+      font-weight: bold; }
+      .join-box a strong {
+        display: block;
+        font-size: 23px;
+        font-weight: bold; }
+    .join-box.floating {
+      bottom: 0; }
+  .p-container {
+    padding: 64px 20px 91px; }
+  .count {
+    display: block;
+    margin-top: 635px;
+    font-size: 0;
+    text-align: center; }
+    .count strong {
+      position: relative;
+      display: inline-block;
+      vertical-align: middle;
+      margin: 0 8px 0 0;
+      padding-left: 8px;
+      font-size: 40px;
+      font-weight: bold;
+      line-height: 0.63;
+      color: #1f1f1f;
+      text-align: center; }
+      .count strong:after {
+        content: '/';
+        position: absolute;
+        top: 6px;
+        left: -4px;
+        font-weight: 300;
+        font-size: 26px;
+        opacity: .6; }
+      .count strong:first-child {
+        padding-left: 0; }
+        .count strong:first-child:after {
+          display: none; }
+      .count strong em {
+        display: block;
+        margin-top: 12px;
+        font-size: 15px;
+        color: #5a5a5a; }
+  .p-synop01 {
+    position: relative;
+    margin-top: 48px; }
+  .p-notice strong {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1;
+    color: #01a4b9; }
+  .p-notice strong em {
+    margin-left: 12px;
+    color: #858585; }
+  .p-notice p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    margin-top: 5px;
+    font-size: 16px;
+    line-height: 1.44;
+    color: #747474; }
+  .p-notice span {
+    display: block;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #747474; }
+  .cont01 {
+    margin-top: 64px; }
+  .cont01 .name {
+    display: none; }
+  .cont01 .logo {
+    display: none; }
+  .cont01 > strong {
+    display: block;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 1.2;
+    color: #01a4b9; }
+  .cont01 > strong em {
+    color: #469fdd; }
+  .cont01 > p {
+    margin-top: 12px;
+    font-size: 16px;
+    line-height: 1.44;
+    color: #585858; }
+  .cont01 .open {
+    margin-top: 42px; }
+  .cont01 .open span:first-child {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.25;
+    color: #1f1f1f; }
+  .cont01 .open strong {
+    display: block;
+    margin-top: 6px;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 0.71;
+    color: #1f1f1f; }
+  .cont01 .open p {
+    margin-top: 18px;
+    font-size: 16px;
+    line-height: 1.44;
+    color: #585858; }
+  .cont01 .open p + span {
+    display: block;
+    margin-top: 6px;
+    padding-left: 8px;
+    font-size: 16px;
+    line-height: 1.44;
+    color: #585858; }
+  .cont02 {
+    margin-top: 30px;
+    padding-top: 348px;
+    background: url("../images/img_liz-m01.png") 50% 0 no-repeat; }
+  .cont02 > strong {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.25;
+    color: #01a4b9; }
+  .cont02 > strong em {
+    display: block;
+    margin-top: 15px;
+    font-size: 40px;
+    font-weight: 900; }
+  .cont02 p {
+    margin-top: 37px;
+    font-size: 16px;
+    line-height: 1.44;
+    color: #585858; }
+  .cont02 ol {
+    margin-top: 16px; }
+  .cont02 ol li {
+    padding-left: 24px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.25;
+    color: #1f1f1f;
+    text-indent: -24px; }
+  .cont02 ol + span {
+    margin-top: 10px; }
+  .cont02 span {
+    display: block;
+    font-size: 16px;
+    line-height: 1.44;
+    color: #585858; }
+  .p-synop02 {
+    margin-top: 20px; }
+  .cont03 {
+    padding-top: 236px;
+    background: url("../images/img_liz-m02.png") 50% 0 no-repeat;
+    font-size: 16px;
+    color: #585858; }
+  .cont03 strong {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 1.2;
+    color: #01a4b9; }
+  .cont03 p {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.25;
+    color: #1f1f1f; }
+  .cont03 ul {
+    margin-top: 14px; }
+  .cont03 ul li {
+    line-height: 1.5; }
+  .cont03 span {
+    display: block;
+    margin-top: 30px; }
+  .cont04 {
+    margin-top: 40px;
+    padding-bottom: 222px;
+    background: url("../images/img_liz-m03.png") 50% 100% no-repeat; }
+  .cont04 strong {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #1f1f1f; }
+  .cont04 span {
+    display: block;
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 1.53;
+    color: #585858; }
+  .cont04 ul {
+    margin-top: 15px; }
+  .cont04 ul li {
+    margin-top: 10px;
+    padding: 10px 15px 10px 12px;
+    border: 2px solid #01a4b9;
+    background: #fff;
+    border-radius: 11px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box; }
+  .cont04 ul li:first-child {
+    margin-top: 0; }
+  .cont04 ul li strong {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #01a4b9; }
+  .cont04 ul li p {
+    margin-top: 3px;
+    font-size: 16px;
+    line-height: 1.44;
+    color: #585858; }
+  .cont04 ul li p br {
+    display: none; }
+  .cont04 .leaf {
+    display: none; }
+  .p-synop03 {
+    margin-top: 73px; }
+  .p-synop03 > strong {
+    font-size: 25px;
+    font-weight: bold;
+    color: #01a4b9; }
+  .p-synop03 > strong em {
+    display: block;
+    margin-top: 7px;
+    color: #469fdd; }
+  .p-synop03 > div {
+    margin-top: 20px; }
+  .p-synop03 > div strong {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #1f1f1f; }
+  .p-synop03 > div p {
+    margin-top: 5px;
+    font-size: 16px;
+    line-height: 1.44;
+    color: #585858; }
+  .p-synop03 > div p br {
+    display: none; }
+  .p-synop03 .step {
+    margin-top: 53px;
+    padding-top: 224px;
+    background: url("../images/img_liz-m04.png") 50% 0% no-repeat; }
+  .p-synop03 .step strong {
+    position: relative;
+    display: block;
+    padding-bottom: 6px;
+    line-height: 1.4; }
+  .p-synop03 .step strong:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 137px;
+    height: 1px;
+    background: #6a6a6a; }
+  .p-synop03 .step ol {
+    margin-top: 12px; }
+  .p-synop03 .step ol li {
+    font-size: 16px;
+    line-height: 1.44;
+    color: #585858; }
+  .p-synop03 figure {
+    margin-top: 22px;
+    margin-left: -22px;
+    text-align: center; }
+  .p-synop04 {
+    margin-top: 87px;
+    display: flex;
+    flex-direction: column-reverse; }
+  .p-synop04 > div strong {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.25;
+    color: #1f1f1f; }
+  .p-synop04 > div strong span {
+    color: #469fdd; }
+  .p-synop04 > div strong + p {
+    margin-top: 18px; }
+  .p-synop04 > div p {
+    margin-top: 22px;
+    font-size: 16px;
+    line-height: 1.44;
+    color: #585858; }
+  .p-synop04 > p {
+    position: relative;
+    margin: 73px -20px 0;
+    padding: 20px 20px 266px 18px;
+    font-size: 20px;
+    line-height: 1.3;
+    color: #707070;
+    background: url("../images/img_liz-m06.png") 50% 0 no-repeat;
+    background-size: auto 437px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    border: 2px solid #5f7ca8; }
+  .p-synop04 > p span {
+    display: block;
+    color: #469fdd;
+    font-weight: bold; }
+  .p-synop04 > p:after {
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: 6px;
+    width: 2px;
+    height: 36px;
+    background: #5f7ca8;
+    transform: rotate(-37deg);
+    -webkit-transform: rotate(-37deg);
+    -ms-transform: rotate(-37deg); } }
 
 /*# sourceMappingURL=common.css.map */
