@@ -297,12 +297,7 @@ $breakpoint: 1024px;
 	  .logo img {
 	    height: 22px;
 	  }
-	  .menu {
-	    position: absolute;top: 21px;right: 18px;
-	    img {
-	      height: 24px;
-	    }
-	  }
+	  .menu {position:absolute;top:12px;right:20px;width:40px;height:40px;background:#a9a9a9;border-radius:100%;}
 	  nav, .select-box {
 	    display: none;
 	  }
@@ -337,7 +332,7 @@ $breakpoint: 1024px;
 	        -ms-transition: all .4s;
 	        &.on, &:hover, &:focus, &:active {
 	          color: #fff;
-	          span {color:#ff0075;}
+	          span {color:#01a4b9;}
 	        }
 	      }
 	      span {display: inline-block;margin-left: 10px;}

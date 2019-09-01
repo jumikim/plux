@@ -569,10 +569,12 @@ body {
       height: 22px; }
     header .menu {
       position: absolute;
-      top: 21px;
-      right: 18px; }
-      header .menu img {
-        height: 24px; }
+      top: 12px;
+      right: 20px;
+      width: 40px;
+      height: 40px;
+      background: #a9a9a9;
+      border-radius: 100%; }
     header nav, header .select-box {
       display: none; }
   .p-lnb {
@@ -606,7 +608,7 @@ body {
           .p-lnb ul li a.on, .p-lnb ul li a:hover, .p-lnb ul li a:focus, .p-lnb ul li a:active {
             color: #fff; }
             .p-lnb ul li a.on span, .p-lnb ul li a:hover span, .p-lnb ul li a:focus span, .p-lnb ul li a:active span {
-              color: #ff0075; }
+              color: #01a4b9; }
         .p-lnb ul li span {
           display: inline-block;
           margin-left: 10px; }
