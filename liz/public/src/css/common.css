@@ -410,7 +410,8 @@ body {
     top: 12px;
     right: 8px;
     font-size: 16px;
-    color: #585858; }
+    color: #585858;
+    text-align: right; }
   .cont04 ul {
     margin-top: 24px;
     font-size: 0; }
@@ -443,6 +444,10 @@ body {
     position: absolute;
     bottom: 0;
     right: -78px; }
+  .en .cont04 span {
+    top: 0; }
+  .en .cont04 ul li {
+    padding-top: 20px; }
   .p-synop03 {
     margin-top: 267px; }
   .p-synop03 > strong {
@@ -508,6 +513,8 @@ body {
     clear: both; }
   .p-synop04 > p {
     float: left;
+    width: 345px;
+    height: 503px;
     margin-right: 40px;
     padding: 40px 58px 318px 33px;
     font-size: 24px;

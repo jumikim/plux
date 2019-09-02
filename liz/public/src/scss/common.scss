@@ -235,13 +235,15 @@ $breakpoint: 1024px;
 
 	.cont04 {position:relative;margin-top:86px;padding-bottom:117px;}
 	.cont04 strong {font-size:22px;font-weight:bold;line-height:1.36;color:#1f1f1f;}
-	.cont04 span {position:absolute;top:12px;right:8px;font-size:16px;color:#585858;}
+	.cont04 span {position:absolute;top:12px;right:8px;font-size:16px;color:#585858;text-align:right;}
 	.cont04 ul {margin-top:24px;font-size:0;}
 	.cont04 ul li {display:inline-block;vertical-align:middle;width:244px;padding:28px 0 0 26px;min-height:202px;margin-left:8px;border:3px solid #01a4b9;background:#fff;border-radius:20px;box-sizing:border-box;-webkit-box-sizing:border-box;-ms-box-sizing:border-box;}
 	.cont04 ul li:first-child {margin-left:0;}
 	.cont04 ul li strong {font-size:20px;font-weight:bold;line-height:1.5;color:#01a4b9;}
 	.cont04 ul li p {margin-top:3px;font-size:18px;line-height:1.33;color:#585858;}
 	.cont04 .leaf {position:absolute;bottom:0;right:-78px;}
+	.en .cont04 span {top:0;}
+	.en .cont04 ul li {padding-top:20px;}
 
 	.p-synop03 {margin-top:267px;}
 	.p-synop03 > strong {font-size:25px;font-weight:bold;color:#01a4b9;}
@@ -260,7 +262,7 @@ $breakpoint: 1024px;
 
 	.p-synop04 {overflow:hidden;margin-top:119px;padding-left:4px;}
 	.p-synop04:after {display:block;content:'';clear:both;}
-	.p-synop04 > p {float:left;margin-right:40px;padding:40px 58px 318px 33px;font-size:24px;line-height:1.17;color:#1f1f1f;background:url('../images/img_miss.png') no-repeat;background-size:auto 503px;box-sizing:border-box;-webkit-box-sizing:border-box;-ms-box-sizing:border-box;}
+	.p-synop04 > p {float:left;width:345px;height:503px;margin-right:40px;padding:40px 58px 318px 33px;font-size:24px;line-height:1.17;color:#1f1f1f;background:url('../images/img_miss.png') no-repeat;background-size:auto 503px;box-sizing:border-box;-webkit-box-sizing:border-box;-ms-box-sizing:border-box;}
 	.p-synop04 > p span {display:block;margin-top:5px;color:#469fdd;font-weight:bold;}
 	.p-synop04 > div {float:left;margin-top:26px;}
 	.p-synop04 > div strong {font-size:22px;font-weight:bold;line-height:1.36;color:#1f1f1f;}
