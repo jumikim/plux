@@ -82,7 +82,7 @@ body {
   position: relative;
   min-width: 320px;
   min-height: 100%;
-  background: #fff url("../images/bg.jpg") 50% 0 no-repeat; }
+  background: #f5f6f8 url("../images/bg.jpg") 50% 0 no-repeat; }
 
 .kr {
   font-family: 'Noto Sans KR'; }
@@ -545,7 +545,11 @@ body {
   .p-synop04 > div p {
     margin-top: 14px;
     font-size: 18px;
-    color: #585858; } }
+    color: #585858; }
+  .en .p-synop04 div {
+    width: 610px; }
+  .en .p-synop04 div p br {
+    display: none; } }
 
 /* mobile */
 @media (max-width: 1023px) {

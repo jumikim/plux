@@ -11,7 +11,7 @@ body {
   position: relative;
   min-width: 320px;
   min-height: 100%;
-  background: #fff url('../images/bg.jpg') 50% 0 no-repeat;
+  background: #f5f6f8 url('../images/bg.jpg') 50% 0 no-repeat;
 }
 
 .kr {
@@ -269,6 +269,8 @@ $breakpoint: 1024px;
 	.p-synop04 > div strong span {color:#469fdd;}
 	.p-synop04 > div strong + p {margin-top:45px;}
 	.p-synop04 > div p {margin-top:14px;font-size:18px;color:#585858;}
+	.en .p-synop04 div {width:610px;}
+	.en .p-synop04 div p br {display:none;}
 }
 
 /* mobile */
