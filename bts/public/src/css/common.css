@@ -93,7 +93,7 @@ body {
 /* desktop */
 @media (min-width: 1024px) {
   .mobile {
-    display: none; }
+    display: none !important; }
   header {
     background: #000;
     border-bottom: 1px solid #777; }
@@ -417,7 +417,7 @@ body {
 /* mobile */
 @media (max-width: 1023px) {
   .pc {
-    display: none; }
+    display: none !important; }
   #p-wrapper {
     background: url("../images/bg_mobile.jpg") 50% 0 no-repeat; }
     #p-wrapper.hidden header {
@@ -510,7 +510,12 @@ body {
     .join-box.floating {
       bottom: 0; }
   .p-container {
-    padding: 64px 20px 91px; }
+    padding: 64px 20px 91px;
+    width: 375px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box; }
   .count {
     display: block;
     margin-top: 526px;

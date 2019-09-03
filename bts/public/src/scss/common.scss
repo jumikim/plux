@@ -26,7 +26,7 @@ $breakpoint: 1024px;
 
 /* desktop */
 @media (min-width: $breakpoint) {
-	.mobile {display:none;}
+	.mobile {display:none !important;}
 	header {
 	  background: #000;
 	  border-bottom: 1px solid #777;
@@ -296,7 +296,7 @@ $breakpoint: 1024px;
 
 /* mobile */
 @media (max-width: $breakpoint - 1) {
-	.pc {display:none;}
+	.pc {display:none !important;}
 	#p-wrapper {
 	  background: url('../images/bg_mobile.jpg') 50% 0 no-repeat;
 	  &.hidden {
@@ -376,7 +376,7 @@ $breakpoint: 1024px;
 		&.floating {bottom:0;}
 	}
 	
-	.p-container {padding:64px 20px 91px;}
+	.p-container {padding:64px 20px 91px;width:375px;margin:0 auto;box-sizing:border-box;-webkit-box-sizing:border-box;-ms-box-sizing:border-box;}
 
 	.count {
 	    display: block;margin-top:526px;
