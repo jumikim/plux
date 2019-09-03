@@ -357,7 +357,7 @@ $breakpoint: 1024px;
 	        -ms-transition: all .4s;
 	        &.on, &:hover, &:focus, &:active {
 	          color: #fff;
-	          span {color:#01a4b9;}
+	          span {color:#9072b1;}
 	        }
 	      }
 	      span {display: inline-block;margin-left: 10px;}
@@ -499,12 +499,12 @@ $breakpoint: 1024px;
 		.example {
 			margin-top:52px;
 			h3 {padding-left:0;}
-			ul {margin-top:6px;font-size:0;
+			ul {margin-top:6px;font-size:0;text-align:center;
 				li {
 					display:inline-block;margin-top:14px;width:163px;
 					&:nth-child(2n) {margin-left:9px;}
 					figcaption {
-						margin-top:6px;font-size:15px;color:#585858;
+						margin-top:6px;font-size:15px;color:#585858;text-align:left;
 						strong {font-weight:bold;}
 					}
 				}

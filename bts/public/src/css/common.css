@@ -482,7 +482,7 @@ body {
           .p-lnb ul li a.on, .p-lnb ul li a:hover, .p-lnb ul li a:focus, .p-lnb ul li a:active {
             color: #fff; }
             .p-lnb ul li a.on span, .p-lnb ul li a:hover span, .p-lnb ul li a:focus span, .p-lnb ul li a:active span {
-              color: #01a4b9; }
+              color: #9072b1; }
         .p-lnb ul li span {
           display: inline-block;
           margin-left: 10px; }
@@ -698,7 +698,8 @@ body {
         padding-left: 0; }
       .p-synop02 .example ul {
         margin-top: 6px;
-        font-size: 0; }
+        font-size: 0;
+        text-align: center; }
         .p-synop02 .example ul li {
           display: inline-block;
           margin-top: 14px;
@@ -708,7 +709,8 @@ body {
           .p-synop02 .example ul li figcaption {
             margin-top: 6px;
             font-size: 15px;
-            color: #585858; }
+            color: #585858;
+            text-align: left; }
             .p-synop02 .example ul li figcaption strong {
               font-weight: bold; } }
 
