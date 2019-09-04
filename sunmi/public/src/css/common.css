@@ -82,7 +82,7 @@ body {
   position: relative;
   min-width: 320px;
   min-height: 100%;
-  background: #00000a url("../images/bg.jpg") 50% 0 no-repeat; }
+  background: #00000b url("../images/bg.jpg") 50% 0 no-repeat; }
 
 .kr {
   font-family: 'Noto Sans KR'; }
@@ -434,7 +434,7 @@ body {
 /* mobile */
 @media (max-width: 1023px) {
   #p-wrapper {
-    background: #00000a url("../images/bg_mobile.jpg") 50% 0 no-repeat; }
+    background: #00000b url("../images/bg_mobile.jpg") 50% 0 no-repeat; }
     #p-wrapper.hidden header {
       top: -64px; }
     #p-wrapper.hidden .p-lnb {

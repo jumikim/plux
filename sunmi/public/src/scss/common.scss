@@ -11,7 +11,7 @@ body {
   position: relative;
   min-width: 320px;
   min-height: 100%;
-  background: #00000a url('../images/bg.jpg') 50% 0 no-repeat;
+  background: #00000b url('../images/bg.jpg') 50% 0 no-repeat;
 }
 
 .kr {
@@ -422,7 +422,7 @@ $breakpoint: 1024px;
 @media (max-width: $breakpoint - 1) {
 
 	#p-wrapper {
-	  background: #00000a url('../images/bg_mobile.jpg') 50% 0 no-repeat;
+	  background: #00000b url('../images/bg_mobile.jpg') 50% 0 no-repeat;
 	  &.hidden {
 	    header {
 	      top: -64px;
