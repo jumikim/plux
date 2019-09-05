@@ -192,11 +192,10 @@ body {
   section p {
     font-size: 16px;
     line-height: 1.75;
-    text-align: justify;
     color: #585858; }
   .join-box {
     position: absolute;
-    top: 76px;
+    top: 907px;
     right: -290px;
     width: 240px;
     background: #9072b1;
@@ -219,9 +218,28 @@ body {
     width: 1000px;
     margin: 0 auto;
     padding-bottom: 100px; }
+  .kv {
+    position: absolute;
+    left: 50%;
+    top: 111px;
+    width: 100%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    text-align: center; }
+    .kv span {
+      display: block; }
+      .kv span img {
+        height: 65px; }
+    .kv p {
+      margin-top: 20px;
+      font-size: 23px;
+      font-weight: bold;
+      line-height: 1.22;
+      color: #fff; }
   .count {
     display: block;
-    margin-top: 792px;
+    padding-top: 792px;
     font-size: 0;
     text-align: center; }
     .count strong {
@@ -516,6 +534,25 @@ body {
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -ms-box-sizing: border-box; }
+  .kv {
+    position: absolute;
+    left: 50%;
+    top: 132px;
+    width: 100%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    text-align: center; }
+    .kv span {
+      display: block; }
+      .kv span img {
+        height: 41px; }
+    .kv p {
+      margin-top: 10px;
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 1.25;
+      color: #fff; }
   .count {
     display: block;
     margin-top: 526px;
