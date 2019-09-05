@@ -362,12 +362,14 @@ body {
       color: #585858;
       text-align: center; }
     .p-synop02 h2 {
-      margin-top: 36px; }
-      .p-synop02 h2 img {
-        height: 51px;
-        padding-left: 24px; }
+      margin-top: 36px;
+      font-size: 25px;
+      font-weight: 900;
+      line-height: 1.52;
+      color: #1f1f1f;
+      /*img {height:51px;padding-left:24px;}*/ }
     .p-synop02 .full {
-      margin-top: 38px;
+      margin-top: 31px;
       margin-bottom: 96px;
       height: 263px; }
       .p-synop02 .full img {
@@ -688,13 +690,14 @@ body {
       line-height: 1.44;
       color: #585858; }
     .p-synop02 h2 {
-      margin-top: 32px; }
-      .p-synop02 h2 span {
-        line-height: 1; }
-      .p-synop02 h2 img {
-        height: 47px; }
+      margin-top: 32px;
+      font-size: 23px;
+      line-height: 1.09;
+      color: #1f1f1f;
+      /*span {line-height:1;}
+			img {height:47px;}*/ }
     .p-synop02 .full {
-      margin-top: 16px;
+      margin-top: 41px;
       margin-bottom: 96px;
       height: 361px; }
       .p-synop02 .full img {
